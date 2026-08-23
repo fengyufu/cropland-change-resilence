@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local environment
+.env
+.DS_Store
+
+# Large/raw geospatial data
+data/raw/
+data/interim/
+data/processed/
+*.tif
+*.tiff
+*.nc
+*.hdf
+*.h5
+*.zarr/
+
+# Generated outputs
+outputs/
+figures/
