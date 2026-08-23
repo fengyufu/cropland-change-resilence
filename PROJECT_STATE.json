@@ -1,0 +1,17 @@
+{
+  "project": "cropland-change-resilence",
+  "stage": "data-design",
+  "research_question_status": "working",
+  "current_focus": "verify cropland datasets and build 2000/2020 cropland-fraction inputs",
+  "spatial_resolution": "0.05 degree (working choice)",
+  "temporal_window": "2000-2020 (working choice)",
+  "main_landcover_candidate": "GLC_FCS30D",
+  "robustness_landcover_candidate": "GLCLU",
+  "next_task": "verify class definitions, access method, and preprocessing for GLC_FCS30D and GLCLU",
+  "last_verified_result": null,
+  "open_risks": [
+    "cropland class definitions may differ across products",
+    "stable-control definition is not finalized",
+    "resilience preprocessing is not finalized"
+  ]
+}
